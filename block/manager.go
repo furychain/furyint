@@ -10,8 +10,8 @@ import (
 	"code.cloudfoundry.org/go-diodes"
 	"github.com/avast/retry-go"
 	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	abciconv "github.com/xblackfury/furyint/conv/abci"
-	"github.com/xblackfury/furyint/p2p"
+	abciconv "github.com/furychain/furyint/conv/abci"
+	"github.com/furychain/furyint/p2p"
 	"github.com/libp2p/go-libp2p-core/crypto"
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmcrypto "github.com/tendermint/tendermint/crypto"
@@ -21,14 +21,14 @@ import (
 	"github.com/tendermint/tendermint/proxy"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/xblackfury/furyint/config"
-	"github.com/xblackfury/furyint/da"
-	"github.com/xblackfury/furyint/log"
-	"github.com/xblackfury/furyint/mempool"
-	"github.com/xblackfury/furyint/settlement"
-	"github.com/xblackfury/furyint/state"
-	"github.com/xblackfury/furyint/store"
-	"github.com/xblackfury/furyint/types"
+	"github.com/furychain/furyint/config"
+	"github.com/furychain/furyint/da"
+	"github.com/furychain/furyint/log"
+	"github.com/furychain/furyint/mempool"
+	"github.com/furychain/furyint/settlement"
+	"github.com/furychain/furyint/state"
+	"github.com/furychain/furyint/store"
+	"github.com/furychain/furyint/types"
 )
 
 type blockSource string

@@ -15,10 +15,10 @@ import (
 	tmtypes "github.com/tendermint/tendermint/types"
 	"go.uber.org/multierr"
 
-	abciconv "github.com/xblackfury/furyint/conv/abci"
-	"github.com/xblackfury/furyint/log"
-	"github.com/xblackfury/furyint/mempool"
-	"github.com/xblackfury/furyint/types"
+	abciconv "github.com/furychain/furyint/conv/abci"
+	"github.com/furychain/furyint/log"
+	"github.com/furychain/furyint/mempool"
+	"github.com/furychain/furyint/types"
 )
 
 // BlockExecutor creates and applies blocks and maintains state.

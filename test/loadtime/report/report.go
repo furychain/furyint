@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xblackfury/furyint/test/loadtime/payload"
-	"github.com/xblackfury/furyint/types"
+	"github.com/furychain/furyint/test/loadtime/payload"
+	"github.com/furychain/furyint/types"
 	"github.com/gofrs/uuid"
 	"gonum.org/v1/gonum/stat"
 )

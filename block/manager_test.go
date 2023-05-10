@@ -12,12 +12,12 @@ import (
 
 	"github.com/avast/retry-go"
 
-	"github.com/xblackfury/furyint/log/test"
-	mempoolv1 "github.com/xblackfury/furyint/mempool/v1"
-	"github.com/xblackfury/furyint/p2p"
-	"github.com/xblackfury/furyint/settlement"
-	"github.com/xblackfury/furyint/testutil"
-	"github.com/xblackfury/furyint/types"
+	"github.com/furychain/furyint/log/test"
+	mempoolv1 "github.com/furychain/furyint/mempool/v1"
+	"github.com/furychain/furyint/p2p"
+	"github.com/furychain/furyint/settlement"
+	"github.com/furychain/furyint/testutil"
+	"github.com/furychain/furyint/types"
 	"github.com/libp2p/go-libp2p-core/crypto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
@@ -29,13 +29,13 @@ import (
 	"github.com/tendermint/tendermint/proxy"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/xblackfury/furyint/config"
-	"github.com/xblackfury/furyint/da"
-	mockda "github.com/xblackfury/furyint/da/mock"
-	nodemempool "github.com/xblackfury/furyint/node/mempool"
-	slmock "github.com/xblackfury/furyint/settlement/mock"
-	slregistry "github.com/xblackfury/furyint/settlement/registry"
-	"github.com/xblackfury/furyint/store"
+	"github.com/furychain/furyint/config"
+	"github.com/furychain/furyint/da"
+	mockda "github.com/furychain/furyint/da/mock"
+	nodemempool "github.com/furychain/furyint/node/mempool"
+	slmock "github.com/furychain/furyint/settlement/mock"
+	slregistry "github.com/furychain/furyint/settlement/registry"
+	"github.com/furychain/furyint/store"
 )
 
 const defaultBatchSize = 5

@@ -7,7 +7,7 @@ import (
 	"github.com/multiformats/go-multiaddr"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/xblackfury/furyint/config"
+	"github.com/furychain/furyint/config"
 )
 
 func TestTranslateAddresses(t *testing.T) {

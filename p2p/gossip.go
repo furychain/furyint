@@ -9,7 +9,7 @@ import (
 	"github.com/libp2p/go-libp2p-core/peer"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 
-	"github.com/xblackfury/furyint/log"
+	"github.com/furychain/furyint/log"
 )
 
 // GossipMessage represents message gossiped via P2P network (e.g. transaction, Block etc).

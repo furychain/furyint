@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/xblackfury/furyint/mempool"
+	"github.com/furychain/furyint/mempool"
 )
 
 func BenchmarkTxMempool_CheckTx(b *testing.B) {

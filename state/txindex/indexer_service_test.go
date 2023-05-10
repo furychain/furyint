@@ -9,10 +9,10 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	"github.com/tendermint/tendermint/types"
 
-	blockidxkv "github.com/xblackfury/furyint/state/indexer/block/kv"
-	"github.com/xblackfury/furyint/state/txindex"
-	"github.com/xblackfury/furyint/state/txindex/kv"
-	"github.com/xblackfury/furyint/store"
+	blockidxkv "github.com/furychain/furyint/state/indexer/block/kv"
+	"github.com/furychain/furyint/state/txindex"
+	"github.com/furychain/furyint/state/txindex/kv"
+	"github.com/furychain/furyint/store"
 )
 
 func TestIndexerServiceIndexesBlocks(t *testing.T) {

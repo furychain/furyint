@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/xblackfury/furyint/da"
-	"github.com/xblackfury/furyint/log"
-	"github.com/xblackfury/furyint/types"
+	"github.com/furychain/furyint/da"
+	"github.com/furychain/furyint/log"
+	"github.com/furychain/furyint/types"
 	"github.com/tendermint/tendermint/libs/pubsub"
 )
 

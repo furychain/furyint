@@ -18,11 +18,11 @@ import (
 	"github.com/tendermint/tendermint/proxy"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	abciconv "github.com/xblackfury/furyint/conv/abci"
-	"github.com/xblackfury/furyint/mempool"
-	mempoolv1 "github.com/xblackfury/furyint/mempool/v1"
-	"github.com/xblackfury/furyint/mocks"
-	"github.com/xblackfury/furyint/types"
+	abciconv "github.com/furychain/furyint/conv/abci"
+	"github.com/furychain/furyint/mempool"
+	mempoolv1 "github.com/furychain/furyint/mempool/v1"
+	"github.com/furychain/furyint/mocks"
+	"github.com/furychain/furyint/types"
 )
 
 func TestCreateBlock(t *testing.T) {

@@ -6,17 +6,17 @@ ABCI-client implementation for Furya's autonomous RollApp forked from [celestiao
 
 To learn more about Furya's autonomous RollApps and furyint read the [docs](https://docs.furya.xyz/learn/rollapps).
 
-![license](https://img.shields.io/github/license/xblackfury/furyint)
+![license](https://img.shields.io/github/license/furychain/furyint)
 ![Go](https://img.shields.io/badge/go-1.18-blue.svg)
-![issues](https://img.shields.io/github/issues/xblackfury/furyint)
-![tests](https://github.com/xblackfury/furyint/actions/workflows/test.yml/badge.svg?branch=main)
-![lint](https://github.com/xblackfury/furyint/actions/workflows/lint.yml/badge.svg?branch=main)
+![issues](https://img.shields.io/github/issues/furychain/furyint)
+![tests](https://github.com/furychain/furyint/actions/workflows/test.yml/badge.svg?branch=main)
+![lint](https://github.com/furychain/furyint/actions/workflows/lint.yml/badge.svg?branch=main)
 
 ## Installation
 
 ### From Binary
 
-To download pre-built binaries, see the [releases page](https://github.com/xblackfury/furyint/releases).
+To download pre-built binaries, see the [releases page](https://github.com/furychain/furyint/releases).
 
 ## From Source
 
@@ -31,7 +31,7 @@ echo export PATH=\"\$PATH:\$GOPATH/bin\" >> ~/.bash_profile
 ### Get Source Code
 
 ```sh
-git clone https://github.com/xblackfury/furyint.git
+git clone https://github.com/furychain/furyint.git
 cd furyint
 ```
 

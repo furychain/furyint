@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/xblackfury/furyint/store"
-	"github.com/xblackfury/furyint/test/loadtime/report"
+	"github.com/furychain/furyint/store"
+	"github.com/furychain/furyint/test/loadtime/report"
 )
 
 const (

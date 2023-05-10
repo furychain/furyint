@@ -6,9 +6,9 @@ import (
 	"net"
 	"strconv"
 
-	grpcda "github.com/xblackfury/furyint/da/grpc"
-	"github.com/xblackfury/furyint/da/grpc/mockserv"
-	"github.com/xblackfury/furyint/store"
+	grpcda "github.com/furychain/furyint/da/grpc"
+	"github.com/furychain/furyint/da/grpc/mockserv"
+	"github.com/furychain/furyint/store"
 )
 
 func main() {

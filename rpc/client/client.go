@@ -7,10 +7,10 @@ import (
 	"sort"
 	"time"
 
-	rconfig "github.com/xblackfury/furyint/config"
-	abciconv "github.com/xblackfury/furyint/conv/abci"
-	"github.com/xblackfury/furyint/mempool"
-	"github.com/xblackfury/furyint/node"
+	rconfig "github.com/furychain/furyint/config"
+	abciconv "github.com/furychain/furyint/conv/abci"
+	"github.com/furychain/furyint/mempool"
+	"github.com/furychain/furyint/node"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/config"
 	tmbytes "github.com/tendermint/tendermint/libs/bytes"
@@ -375,7 +375,7 @@ func (c *Client) ConsensusState(ctx context.Context) (*ctypes.ResultConsensusSta
 //
 // Currently, consensus params changes are not supported and this method returns params as defined in genesis.
 func (c *Client) ConsensusParams(ctx context.Context, height *int64) (*ctypes.ResultConsensusParams, error) {
-	// TODO(tzdybal): implement consensus params handling: https://github.com/xblackfury/furyint/issues/291
+	// TODO(tzdybal): implement consensus params handling: https://github.com/furychain/furyint/issues/291
 	params := c.node.GetGenesis().ConsensusParams
 	return &ctypes.ResultConsensusParams{
 		BlockHeight: int64(c.normalizeHeight(height)),

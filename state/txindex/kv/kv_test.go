@@ -16,8 +16,8 @@ import (
 	tmrand "github.com/tendermint/tendermint/libs/rand"
 	"github.com/tendermint/tendermint/types"
 
-	"github.com/xblackfury/furyint/state/txindex"
-	"github.com/xblackfury/furyint/store"
+	"github.com/furychain/furyint/state/txindex"
+	"github.com/furychain/furyint/store"
 )
 
 func TestTxIndex(t *testing.T) {

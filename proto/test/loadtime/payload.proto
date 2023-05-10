@@ -1,7 +1,7 @@
 syntax = "proto3";
 package loadtime.payload;
 
-option go_package = "github.com/xblackfury/furyint/test/pb/loadtime";
+option go_package = "github.com/furychain/furyint/test/pb/loadtime";
 
 import "gogoproto/gogo.proto";
 import "google/protobuf/timestamp.proto";

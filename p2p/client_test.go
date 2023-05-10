@@ -14,8 +14,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/xblackfury/furyint/config"
-	"github.com/xblackfury/furyint/log/test"
+	"github.com/furychain/furyint/config"
+	"github.com/furychain/furyint/log/test"
 )
 
 func TestClientStartup(t *testing.T) {

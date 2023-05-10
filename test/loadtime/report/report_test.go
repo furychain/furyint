@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xblackfury/furyint/test/loadtime/payload"
-	"github.com/xblackfury/furyint/test/loadtime/report"
-	"github.com/xblackfury/furyint/test/pb/loadtime"
-	"github.com/xblackfury/furyint/types"
+	"github.com/furychain/furyint/test/loadtime/payload"
+	"github.com/furychain/furyint/test/loadtime/report"
+	"github.com/furychain/furyint/test/pb/loadtime"
+	"github.com/furychain/furyint/types"
 	"github.com/google/uuid"
 )
 

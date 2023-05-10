@@ -14,7 +14,7 @@ import (
 	tmversion "github.com/tendermint/tendermint/proto/tendermint/version"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	pb "github.com/xblackfury/furyint/types/pb/furyint"
+	pb "github.com/furychain/furyint/types/pb/furyint"
 )
 
 func TestBlockSerializationRoundTrip(t *testing.T) {

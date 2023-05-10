@@ -3,7 +3,7 @@ package txindex
 import (
 	"context"
 
-	"github.com/xblackfury/furyint/state/indexer"
+	"github.com/furychain/furyint/state/indexer"
 	"github.com/tendermint/tendermint/libs/service"
 	"github.com/tendermint/tendermint/types"
 )

@@ -25,11 +25,11 @@ import (
 	"github.com/tendermint/tendermint/proxy"
 	"github.com/tendermint/tendermint/types"
 
-	"github.com/xblackfury/furyint/config"
-	"github.com/xblackfury/furyint/mocks"
-	"github.com/xblackfury/furyint/node"
-	"github.com/xblackfury/furyint/rpc/client"
-	slmock "github.com/xblackfury/furyint/settlement/mock"
+	"github.com/furychain/furyint/config"
+	"github.com/furychain/furyint/mocks"
+	"github.com/furychain/furyint/node"
+	"github.com/furychain/furyint/rpc/client"
+	slmock "github.com/furychain/furyint/settlement/mock"
 )
 
 func TestHandlerMapping(t *testing.T) {

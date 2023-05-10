@@ -5,7 +5,7 @@ package pb
 
 import (
 	fmt "fmt"
-	furyint "github.com/xblackfury/furyint/types/pb/furyint"
+	furyint "github.com/furychain/furyint/types/pb/furyint"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"
 	math "math"

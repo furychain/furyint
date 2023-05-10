@@ -15,9 +15,9 @@ import (
 	rpcclient "github.com/tendermint/tendermint/rpc/client"
 	"golang.org/x/net/netutil"
 
-	"github.com/xblackfury/furyint/node"
-	"github.com/xblackfury/furyint/rpc/client"
-	"github.com/xblackfury/furyint/rpc/json"
+	"github.com/furychain/furyint/node"
+	"github.com/furychain/furyint/rpc/client"
+	"github.com/furychain/furyint/rpc/json"
 )
 
 // Server handles HTTP and JSON-RPC requests, exposing Tendermint-compatible API.

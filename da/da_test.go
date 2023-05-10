@@ -12,16 +12,16 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	"github.com/xblackfury/furyint/da"
-	"github.com/xblackfury/furyint/da/celestia"
-	cmock "github.com/xblackfury/furyint/da/celestia/mock"
-	grpcda "github.com/xblackfury/furyint/da/grpc"
-	"github.com/xblackfury/furyint/da/grpc/mockserv"
-	"github.com/xblackfury/furyint/da/mock"
-	"github.com/xblackfury/furyint/da/registry"
-	"github.com/xblackfury/furyint/log/test"
-	"github.com/xblackfury/furyint/store"
-	"github.com/xblackfury/furyint/types"
+	"github.com/furychain/furyint/da"
+	"github.com/furychain/furyint/da/celestia"
+	cmock "github.com/furychain/furyint/da/celestia/mock"
+	grpcda "github.com/furychain/furyint/da/grpc"
+	"github.com/furychain/furyint/da/grpc/mockserv"
+	"github.com/furychain/furyint/da/mock"
+	"github.com/furychain/furyint/da/registry"
+	"github.com/furychain/furyint/log/test"
+	"github.com/furychain/furyint/store"
+	"github.com/furychain/furyint/types"
 )
 
 const mockDaBlockTime = 100 * time.Millisecond
@@ -268,7 +268,7 @@ func getRandomBlock(height uint64, nTxs int) *types.Block {
 		block.Data.IntermediateStateRoots.RawRootsList[i] = getRandomBytes(32)
 	}
 
-	// TODO(tzdybal): see https://github.com/xblackfury/furyint/issues/143
+	// TODO(tzdybal): see https://github.com/furychain/furyint/issues/143
 	if nTxs == 0 {
 		block.Data.Txs = nil
 		block.Data.IntermediateStateRoots.RawRootsList = nil

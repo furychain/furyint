@@ -14,8 +14,8 @@ import (
 	"github.com/tendermint/tendermint/libs/pubsub/query"
 	"github.com/tendermint/tendermint/types"
 
-	"github.com/xblackfury/furyint/state/indexer"
-	"github.com/xblackfury/furyint/store"
+	"github.com/furychain/furyint/state/indexer"
+	"github.com/furychain/furyint/store"
 )
 
 var _ indexer.BlockIndexer = (*BlockerIndexer)(nil)

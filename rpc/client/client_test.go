@@ -26,12 +26,12 @@ import (
 	"github.com/tendermint/tendermint/proxy"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/xblackfury/furyint/config"
-	abciconv "github.com/xblackfury/furyint/conv/abci"
-	"github.com/xblackfury/furyint/mocks"
-	"github.com/xblackfury/furyint/node"
-	slmock "github.com/xblackfury/furyint/settlement/mock"
-	"github.com/xblackfury/furyint/types"
+	"github.com/furychain/furyint/config"
+	abciconv "github.com/furychain/furyint/conv/abci"
+	"github.com/furychain/furyint/mocks"
+	"github.com/furychain/furyint/node"
+	slmock "github.com/furychain/furyint/settlement/mock"
+	"github.com/furychain/furyint/types"
 )
 
 var expectedInfo = abci.ResponseInfo{
@@ -533,7 +533,7 @@ func TestUnconfirmedTxs(t *testing.T) {
 func TestUnconfirmedTxsLimit(t *testing.T) {
 	t.Skip("Test disabled because of known bug")
 	// there's a bug in mempool implementation - count should be 1
-	// TODO(tzdybal): uncomment after resolving https://github.com/xblackfury/furyint/issues/191
+	// TODO(tzdybal): uncomment after resolving https://github.com/furychain/furyint/issues/191
 
 	assert := assert.New(t)
 	require := require.New(t)
@@ -757,7 +757,7 @@ func getRandomBlock(height uint64, nTxs int) *types.Block {
 		block.Data.IntermediateStateRoots.RawRootsList[i] = getRandomBytes(32)
 	}
 
-	// TODO(tzdybal): see https://github.com/xblackfury/furyint/issues/143
+	// TODO(tzdybal): see https://github.com/furychain/furyint/issues/143
 	if nTxs == 0 {
 		block.Data.Txs = nil
 		block.Data.IntermediateStateRoots.RawRootsList = nil

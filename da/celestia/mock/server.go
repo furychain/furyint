@@ -13,11 +13,11 @@ import (
 	mux2 "github.com/gorilla/mux"
 
 	"github.com/celestiaorg/go-cnc"
-	"github.com/xblackfury/furyint/da"
-	mockda "github.com/xblackfury/furyint/da/mock"
-	"github.com/xblackfury/furyint/log"
-	"github.com/xblackfury/furyint/store"
-	"github.com/xblackfury/furyint/types"
+	"github.com/furychain/furyint/da"
+	mockda "github.com/furychain/furyint/da/mock"
+	"github.com/furychain/furyint/log"
+	"github.com/furychain/furyint/store"
+	"github.com/furychain/furyint/types"
 )
 
 // Server mocks celestia-node HTTP API.

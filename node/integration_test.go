@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xblackfury/furyint/p2p"
+	"github.com/furychain/furyint/p2p"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/libp2p/go-libp2p-core/crypto"
@@ -21,8 +21,8 @@ import (
 	"github.com/tendermint/tendermint/proxy"
 	"github.com/tendermint/tendermint/types"
 
-	"github.com/xblackfury/furyint/config"
-	"github.com/xblackfury/furyint/mocks"
+	"github.com/furychain/furyint/config"
+	"github.com/furychain/furyint/mocks"
 )
 
 func TestAggregatorMode(t *testing.T) {

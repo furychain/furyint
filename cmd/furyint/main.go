@@ -4,8 +4,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/xblackfury/furyint/cmd/furyint/commands"
-	"github.com/xblackfury/furyint/config"
+	"github.com/furychain/furyint/cmd/furyint/commands"
+	"github.com/furychain/furyint/config"
 	"github.com/tendermint/tendermint/cmd/tendermint/commands/debug"
 	"github.com/tendermint/tendermint/libs/cli"
 )

@@ -3,7 +3,7 @@ package conv
 import (
 	tmcfg "github.com/tendermint/tendermint/config"
 
-	"github.com/xblackfury/furyint/config"
+	"github.com/furychain/furyint/config"
 )
 
 // GetNodeConfig translates Tendermint's configuration into Furyint configuration.

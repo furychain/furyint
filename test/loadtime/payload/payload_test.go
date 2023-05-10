@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/xblackfury/furyint/test/loadtime/payload"
-	"github.com/xblackfury/furyint/test/pb/loadtime"
+	"github.com/furychain/furyint/test/loadtime/payload"
+	"github.com/furychain/furyint/test/pb/loadtime"
 	"github.com/google/uuid"
 )
 

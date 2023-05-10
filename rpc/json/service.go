@@ -16,8 +16,8 @@ import (
 	ctypes "github.com/tendermint/tendermint/rpc/core/types"
 	rpctypes "github.com/tendermint/tendermint/rpc/jsonrpc/types"
 
-	"github.com/xblackfury/furyint/log"
-	"github.com/xblackfury/furyint/rpc/client"
+	"github.com/furychain/furyint/log"
+	"github.com/furychain/furyint/rpc/client"
 )
 
 // GetHTTPHandler returns handler configured to serve Tendermint-compatible RPC.

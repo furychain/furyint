@@ -7,12 +7,12 @@ import (
 	tmlog "github.com/tendermint/tendermint/libs/log"
 	"google.golang.org/grpc"
 
-	grpcda "github.com/xblackfury/furyint/da/grpc"
-	"github.com/xblackfury/furyint/da/mock"
-	"github.com/xblackfury/furyint/store"
-	"github.com/xblackfury/furyint/types"
-	"github.com/xblackfury/furyint/types/pb/dalc"
-	"github.com/xblackfury/furyint/types/pb/furyint"
+	grpcda "github.com/furychain/furyint/da/grpc"
+	"github.com/furychain/furyint/da/mock"
+	"github.com/furychain/furyint/store"
+	"github.com/furychain/furyint/types"
+	"github.com/furychain/furyint/types/pb/dalc"
+	"github.com/furychain/furyint/types/pb/furyint"
 )
 
 // GetServer creates and returns gRPC server instance.

@@ -11,8 +11,8 @@ import (
 	tmtypes "github.com/tendermint/tendermint/types"
 	"go.uber.org/multierr"
 
-	"github.com/xblackfury/furyint/types"
-	pb "github.com/xblackfury/furyint/types/pb/furyint"
+	"github.com/furychain/furyint/types"
+	pb "github.com/furychain/furyint/types/pb/furyint"
 )
 
 var (

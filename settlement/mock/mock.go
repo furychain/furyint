@@ -14,12 +14,12 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	rollapptypes "github.com/xblackfury/furya/x/rollapp/types"
-	"github.com/xblackfury/furyint/da"
-	"github.com/xblackfury/furyint/log"
-	"github.com/xblackfury/furyint/settlement"
-	"github.com/xblackfury/furyint/store"
-	"github.com/xblackfury/furyint/types"
+	rollapptypes "github.com/furychain/furya/x/rollapp/types"
+	"github.com/furychain/furyint/da"
+	"github.com/furychain/furyint/log"
+	"github.com/furychain/furyint/settlement"
+	"github.com/furychain/furyint/store"
+	"github.com/furychain/furyint/types"
 
 	"github.com/tendermint/tendermint/libs/pubsub"
 )

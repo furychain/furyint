@@ -9,11 +9,11 @@ import (
 	"github.com/gogo/protobuf/proto"
 
 	"github.com/celestiaorg/go-cnc"
-	"github.com/xblackfury/furyint/da"
-	"github.com/xblackfury/furyint/log"
-	"github.com/xblackfury/furyint/store"
-	"github.com/xblackfury/furyint/types"
-	pb "github.com/xblackfury/furyint/types/pb/furyint"
+	"github.com/furychain/furyint/da"
+	"github.com/furychain/furyint/log"
+	"github.com/furychain/furyint/store"
+	"github.com/furychain/furyint/types"
+	pb "github.com/furychain/furyint/types/pb/furyint"
 )
 
 // DataAvailabilityLayerClient use celestia-node public API.

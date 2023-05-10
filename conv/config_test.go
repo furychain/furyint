@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/xblackfury/furyint/config"
+	"github.com/furychain/furyint/config"
 	tmcfg "github.com/tendermint/tendermint/config"
 )
 

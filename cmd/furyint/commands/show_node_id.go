@@ -3,7 +3,7 @@ package commands
 import (
 	"fmt"
 
-	"github.com/xblackfury/furyint/conv"
+	"github.com/furychain/furyint/conv"
 	"github.com/libp2p/go-libp2p"
 	"github.com/spf13/cobra"
 

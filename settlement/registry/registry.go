@@ -1,9 +1,9 @@
 package registry
 
 import (
-	"github.com/xblackfury/furyint/settlement"
-	"github.com/xblackfury/furyint/settlement/furya"
-	"github.com/xblackfury/furyint/settlement/mock"
+	"github.com/furychain/furyint/settlement"
+	"github.com/furychain/furyint/settlement/furya"
+	"github.com/furychain/furyint/settlement/mock"
 )
 
 // Client represents a settlement layer client

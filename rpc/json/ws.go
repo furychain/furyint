@@ -8,7 +8,7 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/xblackfury/furyint/log"
+	"github.com/furychain/furyint/log"
 	tmpubsub "github.com/tendermint/tendermint/libs/pubsub"
 )
 
@@ -81,7 +81,7 @@ func (h *handler) wsHandler(w http.ResponseWriter, r *http.Request) {
 		}
 
 		if mt != websocket.TextMessage {
-			// TODO(tzdybal): https://github.com/xblackfury/furyint/issues/465
+			// TODO(tzdybal): https://github.com/furychain/furyint/issues/465
 			h.logger.Debug("expected text message")
 			continue
 		}

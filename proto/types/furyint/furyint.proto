@@ -1,6 +1,6 @@
 syntax = "proto3";
 package furyint;
-option go_package = "github.com/xblackfury/furyint/types/pb/furyint";
+option go_package = "github.com/furychain/furyint/types/pb/furyint";
 import "types/tendermint/abci/types.proto";
 
 // Version captures the consensus rules for processing a block in the blockchain,

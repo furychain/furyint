@@ -15,8 +15,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/multierr"
 
-	"github.com/xblackfury/furyint/config"
-	"github.com/xblackfury/furyint/log"
+	"github.com/furychain/furyint/config"
+	"github.com/furychain/furyint/log"
 )
 
 type testNet []*Client

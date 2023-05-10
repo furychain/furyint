@@ -4,7 +4,7 @@ import (
 	tmstate "github.com/tendermint/tendermint/proto/tendermint/state"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/xblackfury/furyint/types"
+	"github.com/furychain/furyint/types"
 )
 
 // Store is minimal interface for storing and retrieving blocks, commits and state.

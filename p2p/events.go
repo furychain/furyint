@@ -3,8 +3,8 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/xblackfury/furyint/p2p/pb"
-	"github.com/xblackfury/furyint/types"
+	"github.com/furychain/furyint/p2p/pb"
+	"github.com/furychain/furyint/types"
 	tmpubsub "github.com/tendermint/tendermint/libs/pubsub"
 	tmquery "github.com/tendermint/tendermint/libs/pubsub/query"
 )

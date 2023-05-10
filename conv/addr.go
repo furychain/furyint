@@ -5,7 +5,7 @@ import (
 
 	"github.com/multiformats/go-multiaddr"
 
-	"github.com/xblackfury/furyint/config"
+	"github.com/furychain/furyint/config"
 )
 
 // TranslateAddresses updates conf by changing Cosmos-style addresses to Multiaddr format.

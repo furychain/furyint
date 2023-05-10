@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/xblackfury/furyint/state/txindex"
+	"github.com/furychain/furyint/state/txindex"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/libs/pubsub/query"
 )

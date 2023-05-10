@@ -7,7 +7,7 @@ import (
 	tmversion "github.com/tendermint/tendermint/proto/tendermint/version"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/xblackfury/furyint/types"
+	"github.com/furychain/furyint/types"
 )
 
 // ToABCIHeaderPB converts Furyint header to Header format defined in ABCI.

@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/xblackfury/furyint/log"
-	"github.com/xblackfury/furyint/mempool"
-	nodemempool "github.com/xblackfury/furyint/node/mempool"
+	"github.com/furychain/furyint/log"
+	"github.com/furychain/furyint/mempool"
+	nodemempool "github.com/furychain/furyint/node/mempool"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/libs/pubsub"
 	corep2p "github.com/tendermint/tendermint/p2p"

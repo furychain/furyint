@@ -8,7 +8,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/xblackfury/furyint/test/pb/loadtime"
+	"github.com/furychain/furyint/test/pb/loadtime"
 )
 
 const keyPrefix = "a="

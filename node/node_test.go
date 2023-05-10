@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xblackfury/furyint/mempool"
+	"github.com/furychain/furyint/mempool"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
@@ -20,8 +20,8 @@ import (
 	"github.com/tendermint/tendermint/proxy"
 	"github.com/tendermint/tendermint/types"
 
-	"github.com/xblackfury/furyint/config"
-	"github.com/xblackfury/furyint/mocks"
+	"github.com/furychain/furyint/config"
+	"github.com/furychain/furyint/mocks"
 )
 
 // simply check that node is starting and stopping without panicking

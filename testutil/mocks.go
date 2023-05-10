@@ -1,7 +1,7 @@
 package testutil
 
 import (
-	"github.com/xblackfury/furyint/mocks"
+	"github.com/furychain/furyint/mocks"
 	"github.com/stretchr/testify/mock"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/libs/log"

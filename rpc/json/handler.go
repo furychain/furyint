@@ -13,7 +13,7 @@ import (
 
 	tmjson "github.com/tendermint/tendermint/libs/json"
 
-	"github.com/xblackfury/furyint/log"
+	"github.com/furychain/furyint/log"
 	"github.com/gorilla/rpc/v2"
 	"github.com/gorilla/rpc/v2/json2"
 )

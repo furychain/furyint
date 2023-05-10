@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/libs/pubsub"
 
-	sequencertypes "github.com/xblackfury/furya/x/sequencer/types"
-	"github.com/xblackfury/furyint/log/test"
-	mocks "github.com/xblackfury/furyint/mocks"
-	settlementmocks "github.com/xblackfury/furyint/mocks/settlement"
+	sequencertypes "github.com/furychain/furya/x/sequencer/types"
+	"github.com/furychain/furyint/log/test"
+	mocks "github.com/furychain/furyint/mocks"
+	settlementmocks "github.com/furychain/furyint/mocks/settlement"
 
 	sdkcodectypes "github.com/cosmos/cosmos-sdk/codec/types"
 )

@@ -10,8 +10,8 @@ import (
 	"github.com/tendermint/tendermint/libs/pubsub/query"
 	"github.com/tendermint/tendermint/types"
 
-	blockidxkv "github.com/xblackfury/furyint/state/indexer/block/kv"
-	"github.com/xblackfury/furyint/store"
+	blockidxkv "github.com/furychain/furyint/state/indexer/block/kv"
+	"github.com/furychain/furyint/store"
 )
 
 func TestBlockIndexer(t *testing.T) {

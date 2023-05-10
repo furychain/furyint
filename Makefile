@@ -5,7 +5,7 @@ OUTPUT?=$(BUILDDIR)/furyint
 BUILD_TAGS?=furyint
 
 COMMIT_HASH := $(shell git rev-parse --short HEAD)
-LD_FLAGS = -X github.com/xblackfury/furyint/version.FuryintGitCommitHash=$(COMMIT_HASH)
+LD_FLAGS = -X github.com/furychain/furyint/version.FuryintGitCommitHash=$(COMMIT_HASH)
 BUILD_FLAGS = -mod=readonly -ldflags "$(LD_FLAGS)"
 CGO_ENABLED ?= 0
 

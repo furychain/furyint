@@ -6,8 +6,8 @@ import (
 
 	"github.com/libp2p/go-libp2p-core/crypto"
 
-	abciconv "github.com/xblackfury/furyint/conv/abci"
-	"github.com/xblackfury/furyint/types"
+	abciconv "github.com/furychain/furyint/conv/abci"
+	"github.com/furychain/furyint/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/crypto/ed25519"
 	tmstate "github.com/tendermint/tendermint/proto/tendermint/state"

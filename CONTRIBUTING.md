@@ -17,7 +17,7 @@ good issue to work on:
 No explicit permission is needed to work on these issues but it would be good idea
 to tag the user who opened the issue and ask that the issue is assinged to yourself.
 
-All issue labels can be [found here](https://github.com/xblackfury/furyint/labels)
+All issue labels can be [found here](https://github.com/furychain/furyint/labels)
 for you to explore and see what peaks your interest.
 
 ## Contribution process

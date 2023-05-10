@@ -1,10 +1,10 @@
 package registry
 
 import (
-	"github.com/xblackfury/furyint/da"
-	"github.com/xblackfury/furyint/da/celestia"
-	"github.com/xblackfury/furyint/da/grpc"
-	"github.com/xblackfury/furyint/da/mock"
+	"github.com/furychain/furyint/da"
+	"github.com/furychain/furyint/da/celestia"
+	"github.com/furychain/furyint/da/grpc"
+	"github.com/furychain/furyint/da/mock"
 )
 
 // this is a central registry for all Data Availability Layer Clients

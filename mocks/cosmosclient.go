@@ -11,13 +11,13 @@ import (
 
 	cosmosaccount "github.com/ignite/cli/ignite/pkg/cosmosaccount"
 
-	cosmosclient "github.com/xblackfury/cosmosclient/cosmosclient"
+	cosmosclient "github.com/furychain/cosmosclient/cosmosclient"
 
 	mock "github.com/stretchr/testify/mock"
 
-	rollapptypes "github.com/xblackfury/furya/x/rollapp/types"
+	rollapptypes "github.com/furychain/furya/x/rollapp/types"
 
-	sequencertypes "github.com/xblackfury/furya/x/sequencer/types"
+	sequencertypes "github.com/furychain/furya/x/sequencer/types"
 
 	types "github.com/cosmos/cosmos-sdk/types"
 )

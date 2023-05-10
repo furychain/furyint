@@ -5,9 +5,9 @@ import (
 
 	sdkclient "github.com/cosmos/cosmos-sdk/client"
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
-	"github.com/xblackfury/cosmosclient/cosmosclient"
-	rollapptypes "github.com/xblackfury/furya/x/rollapp/types"
-	sequencertypes "github.com/xblackfury/furya/x/sequencer/types"
+	"github.com/furychain/cosmosclient/cosmosclient"
+	rollapptypes "github.com/furychain/furya/x/rollapp/types"
+	sequencertypes "github.com/furychain/furya/x/sequencer/types"
 	"github.com/ignite/cli/ignite/pkg/cosmosaccount"
 	ctypes "github.com/tendermint/tendermint/rpc/core/types"
 )

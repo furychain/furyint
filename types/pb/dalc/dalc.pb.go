@@ -6,7 +6,7 @@ package dalc
 import (
 	context "context"
 	fmt "fmt"
-	furyint "github.com/xblackfury/furyint/types/pb/furyint"
+	furyint "github.com/furychain/furyint/types/pb/furyint"
 	proto "github.com/gogo/protobuf/proto"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"

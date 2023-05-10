@@ -22,8 +22,8 @@ import (
 	"github.com/tendermint/tendermint/p2p"
 	"go.uber.org/multierr"
 
-	"github.com/xblackfury/furyint/config"
-	"github.com/xblackfury/furyint/log"
+	"github.com/furychain/furyint/config"
+	"github.com/furychain/furyint/log"
 )
 
 // TODO(tzdybal): refactor to configuration parameters

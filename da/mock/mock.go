@@ -7,10 +7,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/xblackfury/furyint/da"
-	"github.com/xblackfury/furyint/log"
-	"github.com/xblackfury/furyint/store"
-	"github.com/xblackfury/furyint/types"
+	"github.com/furychain/furyint/da"
+	"github.com/furychain/furyint/log"
+	"github.com/furychain/furyint/store"
+	"github.com/furychain/furyint/types"
 )
 
 // DataAvailabilityLayerClient is intended only for usage in tests.

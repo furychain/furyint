@@ -14,8 +14,8 @@ import (
 	"github.com/tendermint/tendermint/proxy"
 	"github.com/tendermint/tendermint/types"
 
-	"github.com/xblackfury/furyint/mempool"
-	"github.com/xblackfury/furyint/mempool/clist"
+	"github.com/furychain/furyint/mempool"
+	"github.com/furychain/furyint/mempool/clist"
 )
 
 var _ mempool.Mempool = (*TxMempool)(nil)
