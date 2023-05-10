@@ -38,7 +38,14 @@ require (
 require (
 	github.com/Workiva/go-datastructures v1.0.53 // indirect
 	github.com/blang/semver v3.5.1+incompatible // indirect
+	github.com/btcsuite/btcd/btcec/v2 v2.2.0 // indirect
+	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.1 // indirect
+	github.com/btcsuite/btcutil v1.0.3-0.20201208143702-a53e38424cce // indirect
+	github.com/cosmos/cosmos-proto v1.0.0-beta.2 // indirect
 	github.com/creachadair/taskgroup v0.3.2 // indirect
+	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1 // indirect
+	github.com/ethereum/go-ethereum v1.10.19 // indirect
+	github.com/evmos/ethermint v0.19.3 // indirect
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/keybase/go-keychain v0.0.0-20190712205309-48d3d31d256d // indirect
 	github.com/lib/pq v1.10.6 // indirect
@@ -46,6 +53,7 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/satori/go.uuid v1.2.0 // indirect
 	github.com/sirupsen/logrus v1.9.0 // indirect
+	github.com/tyler-smith/go-bip39 v1.1.0 // indirect
 	golang.org/x/exp v0.0.0-20220722155223-a9213eeb770e // indirect
 )
 
@@ -78,11 +86,11 @@ require (
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/dustin/go-humanize v1.0.1-0.20200219035652-afde56e7acac // indirect
 	github.com/dvsekhvalnov/jose2go v1.5.0 // indirect
-	github.com/furychain/furya v0.1.1-alpha
 	github.com/elastic/gosigar v0.14.2 // indirect
 	github.com/flynn/noise v1.0.0 // indirect
 	github.com/francoispqt/gojay v1.2.13 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
+	github.com/furychain/furya v0.3.1-beta
 	github.com/go-kit/log v0.2.1 // indirect
 	github.com/go-logfmt/logfmt v0.5.1 // indirect
 	github.com/go-resty/resty/v2 v2.7.0 // indirect
@@ -246,9 +254,9 @@ require (
 )
 
 replace (
-	github.com/cosmos/ibc-go/v3 => github.com/furychain/ibc-go/v3 v3.1.0-rc2
+	github.com/cosmos/ibc-go/v3 => github.com/furychain/ibc-go/v3 v3.5.0-ibc
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.2-alpha.regen.4
-	github.com/gorilla/rpc => github.com/furychain/rpc v1.3.2
+	github.com/gorilla/rpc => github.com/furychain/rpc v1.3.3
 	google.golang.org/grpc => google.golang.org/grpc v1.33.2
 
 )
