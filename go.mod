@@ -246,9 +246,9 @@ require (
 )
 
 replace (
-	github.com/cosmos/ibc-go/v3 => github.com/furychain/ibc-go/v3 v3.0.0-rc2.0.20230105134315-1870174ab6da
+	github.com/cosmos/ibc-go/v3 => github.com/furychain/ibc-go/v3 v3.1.0-rc2
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.2-alpha.regen.4
-	github.com/gorilla/rpc => github.com/furychain/rpc v1.3.1
+	github.com/gorilla/rpc => github.com/furychain/rpc v1.3.2
 	google.golang.org/grpc => google.golang.org/grpc v1.33.2
 
 )
